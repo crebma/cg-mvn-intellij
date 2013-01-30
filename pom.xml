@@ -13,8 +13,15 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
-            <version>2.2.1</version>
+            <version>4.1.1.4</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.actionbarsherlock</groupId>
+            <artifactId>actionbarsherlock</artifactId>
+            <version>4.2.0</version>
+            <type>apklib</type>
         </dependency>
 
         <!-- Make sure this is below the android dependencies -->
@@ -52,7 +59,7 @@
                 <configuration>
                     <sdk>
                         <!-- platform or api level (api level 8 = platform 2.2) -->
-                        <platform>8</platform>
+                        <platform>14</platform>
                     </sdk>
                 </configuration>
                 <extensions>true</extensions>
